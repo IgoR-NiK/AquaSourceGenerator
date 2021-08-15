@@ -6,7 +6,7 @@ namespace AquaSourceGenerator
     {
         static void Main(string[] args)
         {
-            var application = new AquaReflectionApplication();
+            var application = new AquaSourceGeneratorApplication();
             var viewModel = application.Run<IMainViewModel>();
             viewModel.Calculate(2, 3);
         }
