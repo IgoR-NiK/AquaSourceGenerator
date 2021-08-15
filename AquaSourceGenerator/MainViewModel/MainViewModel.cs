@@ -18,7 +18,7 @@ namespace AquaSourceGenerator
         public void Calculate(int x, int y)
         {
             var result = Calculator.Calculate(x, y);
-            Console.WriteLine($"{x} + {y} = {result}");
+            Logger.Log($"{x} + {y} = {result}");
         }
     }
 }
