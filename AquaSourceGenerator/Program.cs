@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Core;
 
 namespace AquaSourceGenerator
 {
@@ -6,7 +6,9 @@ namespace AquaSourceGenerator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var application = new AquaReflectionApplication();
+            var viewModel = application.Run<IMainViewModel>();
+            viewModel.Calculate(2, 3);
         }
     }
 }
