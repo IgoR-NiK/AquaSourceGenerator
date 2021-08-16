@@ -40,8 +40,6 @@ namespace Core
                     continue;
 
                 descendants.ForEach(it => registrator.Register(service, it));
-                
-                implementations.ExceptWith(descendants);
             }
         }
     }

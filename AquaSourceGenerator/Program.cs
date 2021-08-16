@@ -1,5 +1,4 @@
-﻿using System;
-using Core;
+﻿using BenchmarkDotNet.Running;
 
 namespace AquaSourceGenerator
 {
@@ -7,12 +6,7 @@ namespace AquaSourceGenerator
     {
         static void Main(string[] args)
         {
-            var application = new AquaManualApplication(new ManualModule());
-            var viewModel = application.Run<IMainViewModel>();
-            viewModel.Calculate(2, 3);
-            
-            Console.WriteLine("Click any key...");
-            Console.ReadKey();
+            var summary = BenchmarkRunner.Run<RegisterBenchmark>();
         }
     }
 }
