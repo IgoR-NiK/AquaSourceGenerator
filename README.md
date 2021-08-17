@@ -1,5 +1,7 @@
 # Benchmark
 
+Benchmark using BenchmarkDotNet
+
 |                      Method |       Mean |     Error |     StdDev |     Median |
 |---------------------------- |-----------:|----------:|-----------:|-----------:|
 |          ManualRegistration |   2.589 ms | 0.1024 ms |  0.2905 ms |   2.490 ms |
