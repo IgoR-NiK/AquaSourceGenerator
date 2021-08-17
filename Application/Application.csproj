@@ -15,4 +15,8 @@
       <ProjectReference Include="..\Source\Source.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\AquaModuleGenerator\AquaModuleGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    </ItemGroup>
+
 </Project>

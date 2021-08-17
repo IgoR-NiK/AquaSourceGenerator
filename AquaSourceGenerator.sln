@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{30D7978B-5BF2-4E23-91FB-6CCD662C831D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterAllGenerator", "RegisterAllGenerator\RegisterAllGenerator.csproj", "{B07251B2-0BB8-41B9-921E-E6ED773365DC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Source", "Source\Source.csproj", "{7C5C76EC-3139-498B-929D-8F9464510502}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AquaModuleGenerator", "AquaModuleGenerator\AquaModuleGenerator.csproj", "{A981D9D1-E156-493A-933D-1A7B66AC86FF}"
@@ -24,10 +22,6 @@ Global
 		{30D7978B-5BF2-4E23-91FB-6CCD662C831D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D7978B-5BF2-4E23-91FB-6CCD662C831D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D7978B-5BF2-4E23-91FB-6CCD662C831D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B07251B2-0BB8-41B9-921E-E6ED773365DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B07251B2-0BB8-41B9-921E-E6ED773365DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B07251B2-0BB8-41B9-921E-E6ED773365DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B07251B2-0BB8-41B9-921E-E6ED773365DC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C5C76EC-3139-498B-929D-8F9464510502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7C5C76EC-3139-498B-929D-8F9464510502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C5C76EC-3139-498B-929D-8F9464510502}.Release|Any CPU.ActiveCfg = Release|Any CPU
