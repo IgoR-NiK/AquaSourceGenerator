@@ -1,4 +1,5 @@
-﻿using BenchmarkDotNet.Attributes;
+﻿using Application;
+using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Jobs;
 using Core;
 
@@ -21,6 +22,15 @@ namespace Application
             viewModel.Calculate(2, 3);
         }
         
+        [Benchmark]
+        public void SourceGeneratorRegistration()
+        {
+            var application = new AquaSourceGeneratorApplication();
+            application.Init();
+            var viewModel = application.Run<IMainViewModel>();
+            viewModel.Calculate(2, 3);
+        }
+
         [Benchmark]
         public void ReflectionRegistration()
         {
