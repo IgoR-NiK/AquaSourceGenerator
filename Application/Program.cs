@@ -1,6 +1,6 @@
 ﻿using BenchmarkDotNet.Running;
 
-namespace AquaSourceGenerator
+namespace Application
 {
     class Program
     {

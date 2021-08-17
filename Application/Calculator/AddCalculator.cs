@@ -1,4 +1,4 @@
-﻿namespace AquaSourceGenerator
+﻿namespace Application
 {
     public class AddCalculator : ICalculator
     {

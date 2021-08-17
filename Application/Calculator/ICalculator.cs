@@ -1,6 +1,6 @@
 ﻿using Core;
 
-namespace AquaSourceGenerator
+namespace Application
 {
     public interface ICalculator : IResolvable
     {

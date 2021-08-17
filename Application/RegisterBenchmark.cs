@@ -2,7 +2,7 @@
 using BenchmarkDotNet.Jobs;
 using Core;
 
-namespace AquaSourceGenerator
+namespace Application
 {
     [SimpleJob(RuntimeMoniker.Net50)]
     public class RegisterBenchmark

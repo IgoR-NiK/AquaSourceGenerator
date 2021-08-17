@@ -2,7 +2,7 @@
 using DryIoc;
 using Source;
 
-namespace AquaSourceGenerator
+namespace Application
 {
     public class ManualModule : IAquaModule
     {

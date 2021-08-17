@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AquaSourceGenerator", "AquaSourceGenerator\AquaSourceGenerator.csproj", "{C46C5C63-744D-4A87-B406-EE6F245B06B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{C46C5C63-744D-4A87-B406-EE6F245B06B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{30D7978B-5BF2-4E23-91FB-6CCD662C831D}"
 EndProject
